@@ -1,0 +1,8 @@
+<image class='detail__img' mode='widthFix' src='{{goods.img}}'/>
+<view class='detail__title'>{{goods.title}}</view>
+<view class='detail__text'>{{goods.desc}}</view>
+<button class='detail-ctrl flex-box flex-center flex-middle white-bg' bindtap='codeTap'>
+  <image class='detail-ctrl__icon' src='../../images/center_wechat_icon.png'/>
+  <view class='detail-ctrl__text'>{{codeNo}}<text class='detail-ctrl__text--mini'>(点击复制微信号,加好友购买)</text></view>
+</button>
+<include src='../../templates/contact.wxml'/>

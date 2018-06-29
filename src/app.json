@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/center/center",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6d1f",
+    "navigationBarTitleText": "小V香港代购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#232326",
+    "selectedColor": "#ff6d1f",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/tab_home_icon.png",
+        "selectedIconPath": "images/tab_home_icon_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "images/tab_center_icon.png",
+        "selectedIconPath": "images/tab_center_icon_active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

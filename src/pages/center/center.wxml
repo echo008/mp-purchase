@@ -1,0 +1,29 @@
+<view class='center-top flex-box flex-column flex-middle flex-center'>
+  <block wx:if='{{userInfo.nickName}}'>
+    <image class='center-top__avatar' src='{{userInfo.avatarUrl}}'/>
+    <view class='center-top__name'>{{userInfo.nickName}}</view>
+  </block>
+  <button open-type='getUserInfo' lang='zh_CN' bindgetuserinfo='getUserInfo' wx:else>
+    <image class='center-top__avatar' src='../../images/center_avatar_img.png'/>
+    <view class='center-top__btn'>点击获取信息</view>
+  </button>
+</view>
+<view class='center-main'>
+  <button class='center-cell flex-box flex-middle white-bg' bindtap='phoneTap'>
+    <image class='center-cell__icon' src='../../images/center_phone_icon.png'/>
+    <view class='center-cell__text center-cell__text--bold'>{{phone}}</view>
+  </button>
+  <button class='center-cell flex-box flex-middle white-bg' bindtap='mapTap'>
+    <image class='center-cell__icon' src='../../images/center_addr_icon.png'/>
+    <view class='center-cell__text'>{{address}}</view>
+  </button>
+  <button class='center-cell flex-box flex-middle white-bg' bindtap='codeTap'>
+    <image class='center-cell__icon' src='../../images/center_wechat_icon.png'/>
+    <view class='center-cell__text'>{{codeNo}}<text class='center-cell__text--mini'>(点击复制微信号,加好友购买)</text></view>
+  </button>
+  <view class='center-code flex-box flex-column flex-middle white-bg' bindlongpress='longTap'>
+    <image class='center-code__img' src='../../images/center_qrcode_img.jpg'/>
+    <view class='center-code__tips'>长按保存微信二维码,扫码加好友购买</view>
+  </view>
+</view>
+<include src='../../templates/contact.wxml'/>

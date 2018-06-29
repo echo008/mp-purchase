@@ -1,0 +1,45 @@
+page {
+  padding-bottom: 100rpx;
+}
+.detail__img {
+  width: 100%;
+}
+.detail__title {
+  padding: 10rpx 20rpx;
+  line-height: 48rpx;
+  font-size: 32rpx;
+  color: #ff6d1f;
+}
+.detail__text {
+  padding: 12rpx 20rpx;
+  line-height: 48rpx;
+  font-size: 30rpx;
+  color: #333;
+  text-indent: 2em;
+}
+
+.detail-ctrl {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100rpx;
+  border-radius: 0;
+}
+.detail-ctrl__icon {
+  width: 56rpx;
+  height: 56rpx;
+}
+.detail-ctrl__text {
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  color: #ff6d1f;
+}
+.detail-ctrl__text--mini {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+}
+.contact__btn {
+  bottom: 150rpx;
+}

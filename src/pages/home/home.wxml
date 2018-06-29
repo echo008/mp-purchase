@@ -1,0 +1,13 @@
+<swiper class='home-swiper' indicator-dots indicator-color='#D8D8D8' indicator-active-color='#FF6D1F'>
+  <swiper-item wx:for='{{imgs}}' wx:key='{{index}}'>
+    <image class='home-swiper__img' src='{{item.img}}' bindtap='goDetail' data-id='{{item.id}}'/>
+  </swiper-item>
+</swiper>
+<view class='home-goods flex-box'>
+  <view class='home-goods__title'>商品列表</view>
+  <view class='home-goods-item' wx:for='{{goods}}' wx:key='{{index}}' bindtap='goDetail' data-id='{{item.id}}'>
+    <image class='home-goods__img' src='{{item.img}}'/>
+    <view class='home-goods__text ellipsis'>{{item.title}}</view>
+  </view>
+</view>
+<include src='../../templates/contact.wxml'/>
