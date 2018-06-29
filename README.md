@@ -8,9 +8,11 @@
 
 ### 截图预览
 
-<div align=center><img width="540" height="960" src="./screenshot/home.jpg"/></div>
-<div align=center><img width="540" height="960" src="./screenshot/center.jpg"/></div>
-<div align=center><img width="540" height="960" src="./screenshot/detail.jpg"/></div>
+<div align=center>
+  <img width="270" height="480" src="./screenshot/home.jpg"/>
+  <img width="270" height="480" src="./screenshot/center.jpg"/>
+  <img width="270" height="480" src="./screenshot/detail.jpg"/>
+</div>
 
 ### 功能说明
 
