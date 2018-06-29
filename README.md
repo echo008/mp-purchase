@@ -8,9 +8,9 @@
 
 ### 截图预览
 
-![home](https://github.com/echo008/mp-purchase/blob/master/screenshot/home.jpg?raw=true=640x)
-![center](https://github.com/echo008/mp-purchase/blob/master/screenshot/center.jpg =640x)
-![detail](https://github.com/echo008/mp-purchase/blob/master/screenshot/detail.jpg=640x960)
+![home](./screenshot/home.jpg?raw=true=640x)
+![center](https://github.com/echo008/mp-purchase/blob/master/screenshot/center.jpg?raw=true=640x)
+![detail](https://github.com/echo008/mp-purchase/blob/master/screenshot/detail.jpg?imageView2/2/w/300)
 
 ### 功能说明
 
